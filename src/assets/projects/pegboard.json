@@ -11,5 +11,8 @@
         "TypeScript"
     ],
     "years": ["2021", "2022"],
-    "github": "https://github.com/audse/pegboard-app"
+    "github": "https://github.com/audse/pegboard-app",
+    "screenshots": [
+        "/src/assets/images/screenshots/pegboard.png"
+    ]
 }

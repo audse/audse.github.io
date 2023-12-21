@@ -6,4 +6,13 @@
     .p-component {
         font-family: unset;
     }
+
+    .p-galleria-content,
+    .p-galleria-item-wrapper,
+    .p-galleria-item-container,
+    .p-galleria-item,
+    .p-galleria .p-image-preview-container,
+    .p-galleria .p-image-preview-indicator {
+        border-radius: inherit;
+    }
 }

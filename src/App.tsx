@@ -71,11 +71,9 @@ function ResumeLink () {
 
 function App() {
     return (
-        <PrimeReactProvider value={ {
-            ripple: true
-        } }>
+        <PrimeReactProvider value={ { ripple: true } }>
             <Menubar
-            className='m-2'
+                className='m-2'
                 model={[
                     { label: 'Work', command: () => goToId('work') },
                     { label: 'Projects', command: () => goToId('projects') },
