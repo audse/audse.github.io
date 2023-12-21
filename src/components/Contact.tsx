@@ -1,4 +1,4 @@
-import { Button } from 'primereact/button'
+import { Menu } from 'primereact/menu'
 
 function Contact() {
     return (
@@ -6,10 +6,12 @@ function Contact() {
             <div className='container'>
                 <header className='section-header'>
                     <h2>Contact</h2>
-                    <p className='text-xl font-sans py-4'>audrey.serene@gmail.com</p>
                 </header>
-                <Button icon='pi pi-linkedin' label='LinkedIn' size='small' onClick={ () => window.open('https://linkedin.com/in/audreyerserene', 'blank') } iconPos='right' className='me-4 font-sans' />
-                <Button icon='pi pi-github' label='Github' size='small' onClick={ () => window.open('https:/github.com/audse', 'blank') } iconPos='right' className='font-sans' />
+                <Menu className='w-fit' model={[
+                    { label: 'audrey.serene@gmail.com', url: 'mailto:audrey.serene@gmail.com', icon: 'pi pi-envelope' },
+                    { label: 'LinkedIn', url: 'https://linkedin.com/in/audreyerserene', icon: 'pi pi-linkedin' },
+                    { label: 'Github', url: 'https:/github.com/audse', icon: 'pi pi-github' }
+                ]} />
             </div>
         </footer>
     )
