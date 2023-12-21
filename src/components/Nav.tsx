@@ -1,10 +1,5 @@
-import { Button } from 'primereact/button'
 import { Menubar } from 'primereact/menubar'
 import { ScrollTop } from 'primereact/scrolltop'
-
-function goToId(id: string) {
-    document?.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
-}
 
 function Nav() {
     return <>
