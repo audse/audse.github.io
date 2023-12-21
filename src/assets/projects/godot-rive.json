@@ -13,6 +13,6 @@
     "years": ["2023"],
     "github": "https://github.com/kibble-cabal/godot-rive",
     "screenshots": [
-        "/src/assets/images/screenshots/godot-rive.png"
+        "images/screenshots/godot-rive.png"
     ]
 }

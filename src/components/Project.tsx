@@ -15,7 +15,7 @@ type ProjectProps = {
 
 function ProjectScreenshots(props: Required<Pick<ProjectProps, 'screenshots'>>) {
     return <Galleria 
-            value={ props.screenshots || [] } 
+            value={ props.screenshots } 
             className='rounded-lg max-w-full w-72'
             showThumbnails={ false } 
             showIndicators={ props.screenshots.length > 1 }

@@ -12,6 +12,6 @@
     "years": ["2023"],
     "github": "https://github.com/audse/chroma",
     "screenshots": [
-        "/src/assets/images/screenshots/chroma.png"
+        "images/screenshots/chroma.png"
     ]
 }
