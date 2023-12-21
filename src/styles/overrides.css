@@ -1,0 +1,9 @@
+@layer overrides {
+    :root {
+        font-family: 'Playfair Display', serif !important;
+    }
+
+    .p-component {
+        font-family: unset;
+    }
+}

@@ -1,11 +1,68 @@
+@layer tailwind {
+    @tailwind base;
+}
+
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  margin: 0;
+    margin: 0;
+}
+
+strong, b, h1, h2, h3 {
+    font-weight: 900;
+}
+
+h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small {
+    font-weight: 400;
+    display: block;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* TailwindCSS overrides */
+
+h2 {
+    @apply text-5xl;
+}
+
+h3 {
+    @apply text-4xl;
+}
+
+.container {
+    max-width: 700px;
+}
+
+/* PrimeReact overrides */
+
+#projects .p-timeline-event-separator {
+    top: 0.85rem;
+    position: relative;
+}
+
+#projects .p-timeline-event-opposite {
+    max-width: 20%;
+}
+
+#projects .technologies {
+    line-height: 1rem;
+}
+
+#projects .technologies::first-line {
+    line-height: 2.5rem;
+}
+
+#projects .technologies {
+    margin-bottom: 1rem;
 }

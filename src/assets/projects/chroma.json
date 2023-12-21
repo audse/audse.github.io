@@ -1,0 +1,14 @@
+{
+  "name": "Chroma",
+  "subtitle": "vector design app, built natively for MacOS, iOS, and iPadOS",
+  "technologies": [
+    "Swift",
+    "SwiftUI"
+  ],
+  "description": [
+    "Chroma was built specifically for logos, fonts, and other vector designs that value precision.",
+    "This app works like pixel art – place pixels of any shape on a grid to create accurate and beautiful designs without worrying about measuring, alignment, etc."
+  ],
+  "years": ["2023"],
+  "github": "https://github.com/audse/chroma"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Pegboard",
+    "subtitle": "a flexible project management app",
+    "technologies": [
+        "Django",
+        "Django REST Framework",
+        "Django Channels",
+        "Python",
+        "PostgreSQL",
+        "Vue 3",
+        "TypeScript"
+    ],
+    "years": ["2021", "2022"],
+    "github": "https://github.com/audse/pegboard-app"
+}

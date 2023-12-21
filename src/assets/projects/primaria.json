@@ -1,0 +1,14 @@
+{
+    "name": "Primaria World",
+    "subtitle": "a complex browser-based virtual pet game",
+    "technologies": [
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "HTML",
+        "CSS",
+        "Javascript"
+    ],
+    "years": ["2017", "2020"],
+    "github": "https://github.com/audse/primaria"
+}
