@@ -1,4 +1,5 @@
 import { Menu } from 'primereact/menu'
+import { LINKEDIN_URL, GITHUB_URL, RESUME_FILENAME, RESUME_URL, EMAIL } from '../constants'
 
 function Contact() {
     return (
@@ -8,9 +9,19 @@ function Contact() {
                     <h2>Contact</h2>
                 </header>
                 <Menu className='w-fit' model={[
-                    { label: 'audrey.serene@gmail.com', url: 'mailto:audrey.serene@gmail.com', icon: 'pi pi-envelope' },
-                    { label: 'LinkedIn', url: 'https://linkedin.com/in/audreyserene', icon: 'pi pi-linkedin' },
-                    { label: 'Github', url: 'https://github.com/audse', icon: 'pi pi-github' }
+                    { label: EMAIL, url: `mailto:${ EMAIL }`, icon: 'pi pi-envelope' },
+                    { template: (
+                        <a href={ RESUME_URL } 
+                            download={ RESUME_FILENAME }
+                            className='p-menuitem-link'
+                            role='menuitem'
+                            tabIndex={ 0 }>
+                                <span className='p-menuitem-icon pi pi-download'></span>
+                                <span className='p-menuitem-text'>Download Resume</span>
+                            </a>
+                        ) },
+                    { label: 'LinkedIn', url: LINKEDIN_URL, icon: 'pi pi-linkedin' },
+                    { label: 'Github', url: GITHUB_URL, icon: 'pi pi-github' }
                 ]} />
             </div>
         </footer>

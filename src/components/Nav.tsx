@@ -1,5 +1,6 @@
 import { Menubar } from 'primereact/menubar'
 import { ScrollTop } from 'primereact/scrolltop'
+import { GITHUB_URL, LINKEDIN_URL } from '../constants'
 
 function Nav() {
     return <>
@@ -14,10 +15,10 @@ function Nav() {
             start={ <span className='block ps-4 pe-12 text-muted'>Audrey Serene</span> }
             end={
                 <>
-                    <a href='https://linkedin.com/in/audreyserene' className='p-button p-component p-button-icon-only p-button-text me-2' target='_blank'>
+                    <a href={ LINKEDIN_URL } className='p-button p-component p-button-icon-only p-button-text me-2' target='_blank'>
                         <span className='p-button-icon p-c pi pi-linkedin' />
                     </a>
-                    <a href='https://github.com/audse' className='p-button p-component p-button-icon-only p-button-text' target='_blank'>
+                    <a href={ GITHUB_URL } className='p-button p-component p-button-icon-only p-button-text' target='_blank'>
                         <span className='p-button-icon p-c pi pi-github' />
                     </a>
                 </>

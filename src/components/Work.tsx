@@ -7,9 +7,8 @@ import { Button } from 'primereact/button'
 import utilityApiJob from '../assets/jobs/utilityapi.json'
 import freelanceAnimationJob from '../assets/jobs/freelance-animation.json'
 import webTutorJob from '../assets/jobs/web-tutor.json'
-import resumeUrl from '../assets/documents/audreyserene_fullstackdev-resume.pdf'
 
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+import { MONTHS, RESUME_FILENAME, RESUME_URL } from '../constants'
 
 function sortByDates<T extends { dates: string[] }>(a: T, z: T): number {
     return new Date(z.dates[z.dates.length - 1]).getTime() - new Date(a.dates[a.dates.length - 1]).getTime()
@@ -31,7 +30,7 @@ const jobs: JobProps[] = [
 
 function ResumeLink() {
     return (
-        <a href={ resumeUrl } download='AudreySerene_FullStackEngineer_Resume.pdf'>
+        <a href={ RESUME_URL } download={ RESUME_FILENAME }>
             <Button outlined label='Resume' icon='pi pi-download' size='small' iconPos='right' />
         </a>
     )
