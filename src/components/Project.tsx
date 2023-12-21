@@ -17,10 +17,10 @@ function Project (props: ProjectProps) {
             { props.technologies && <p className='font-sans font-bold text-base text-pink-600 mb-1 technologies'>{ props.technologies.join(', ') }</p> }
             <h3>
                 { props.name }
-                <small className='text-2xl text-muted'>{ props.subtitle }</small>
+                <small className='text-xl text-muted'>{ props.subtitle }</small>
             </h3>
             { props.description && props.description.map(desc => <p className='font-sans max-w-prose my-3 whitespace-pre-wrap'>{ desc }</p>) }
-            { (props.github || props.website) && <aside className='block mt-6 mb-16'>
+            { (props.github || props.website) && <aside className='block mt-6 mb-20'>
                 { props.github && <Button 
                     icon='pi pi-github' 
                     label='See it on Github' 

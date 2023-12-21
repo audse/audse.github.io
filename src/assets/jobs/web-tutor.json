@@ -1,0 +1,9 @@
+
+{
+    "title": "Web Development Tutor",
+    "company": "Antioch Middle School",
+    "dates": ["2017", "2018"],
+    "description": [
+        "Tutored middle school students in web development, from setting up an IDE to publishing their first websites using basic HTML & CSS (and a little Python)"
+    ]
+}

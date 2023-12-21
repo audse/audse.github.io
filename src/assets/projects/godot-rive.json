@@ -1,0 +1,15 @@
+{
+  "name": "Godot-Rive",
+  "subtitle": "an open-source integration of Rive into Godot 4 using GDExtension",
+  "technologies": [
+    "C++",
+    "Skia (Graphics Library)",
+    "Python"
+  ],
+  "description": [
+    "This is an extension for the FOSS game engine Godot.",
+    "It adds a basic integration to the third-party proprietary software Rive, enabling interactive vector animations within Godot."
+  ],
+  "years": ["2023"],
+  "github": "https://github.com/kibble-cabal/godot-rive"
+}

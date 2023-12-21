@@ -30,6 +30,10 @@ p {
     line-height: 1.6;
 }
 
+.section-header {
+    @apply mb-6 p-6 border-none bg-gray-100 flex justify-between rounded;
+}
+
 /* TailwindCSS overrides */
 
 h2 {
@@ -45,24 +49,28 @@ h3 {
 }
 
 /* PrimeReact overrides */
-
+#work .p-timeline-event-separator,
 #projects .p-timeline-event-separator {
     top: 0.85rem;
     position: relative;
 }
 
+#work .p-timeline-event-opposite,
 #projects .p-timeline-event-opposite {
-    max-width: 20%;
+    max-width: 22%;
 }
 
+#work .company,
 #projects .technologies {
     line-height: 1rem;
 }
 
+#work .company::first-line,
 #projects .technologies::first-line {
     line-height: 2.5rem;
 }
 
+#work .company,
 #projects .technologies {
     margin-bottom: 1rem;
 }

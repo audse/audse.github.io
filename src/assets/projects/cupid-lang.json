@@ -1,0 +1,10 @@
+{
+  "name": "Cupid Lang",
+  "subtitle": "an object-oriented programming language inspired by TypeScript",
+  "technologies": [
+    "Rust"
+  ],
+  "description": [],
+  "years": ["2022", "2023"],
+  "github": "https://github.com/audse/cupid-lang"
+}
