@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section id='about' className='container py-24 px-2'>
+        <section id='about' className='container py-24 px-6 sm:px-2'>
             <header className='section-header'>
                 <h2>About</h2>
             </header>

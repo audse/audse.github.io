@@ -38,7 +38,7 @@ function ResumeLink() {
 
 function Work() {
     return (
-        <section id='work' className='container py-16 px-2'>
+        <section id='work' className='container py-16 px-6 sm:px-2'>
 
             <header className='section-header'>
                 <h2>Work</h2>

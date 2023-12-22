@@ -24,7 +24,7 @@ const projects: ProjectProps[] = [
 
 function Projects() {
     return (
-        <section id='projects' className='container py-16 px-2'>
+        <section id='projects' className='container py-16 px-6 sm:px-2'>
             <header className='section-header'>
                 <h2>Selected Projects</h2>
             </header>

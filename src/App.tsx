@@ -10,7 +10,7 @@ function App() {
     return (
         <PrimeReactProvider value={ { ripple: true } }>
             <Nav />
-            <header className='container py-32 px-2'>
+            <header className='container py-32 px-6 sm:px-2'>
                 <h1 className='text-6xl'>
                     Audrey Serene
                     <small className='text-4xl text-muted'>Full Stack Software Engineer</small>

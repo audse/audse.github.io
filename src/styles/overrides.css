@@ -3,6 +3,8 @@
         font-family: 'Playfair Display', serif !important;
     }
 
+    /* PrimeReact overrides */
+
     .p-component {
         font-family: unset;
     }
@@ -14,5 +16,36 @@
     .p-galleria .p-image-preview-container,
     .p-galleria .p-image-preview-indicator {
         border-radius: inherit;
+    }
+
+    #work .p-timeline-event-separator,
+    #projects .p-timeline-event-separator {
+        top: 0.85rem;
+        position: relative;
+    }
+
+    #work .p-timeline-event-opposite,
+    #projects .p-timeline-event-opposite {
+        max-width: 22%;
+    }
+
+    #work .p-timeline-event-content,
+    #projects .p-timeline-event-content {
+        max-width: 78%;
+    }
+
+    #work .company,
+    #projects .technologies {
+        line-height: 1rem;
+    }
+
+    #work .company::first-line,
+    #projects .technologies::first-line {
+        line-height: 2.5rem;
+    }
+
+    #work .company,
+    #projects .technologies {
+        margin-bottom: 1rem;
     }
 }

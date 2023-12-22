@@ -3,7 +3,7 @@ import { LINKEDIN_URL, GITHUB_URL, RESUME_FILENAME, RESUME_URL, EMAIL } from '..
 
 function Contact() {
     return (
-        <footer id='contact' className='pt-24 pb-48 px-2'>
+        <footer id='contact' className='pt-24 pb-48 px-6 sm:px-2'>
             <div className='container'>
                 <header className='section-header'>
                     <h2>Contact</h2>

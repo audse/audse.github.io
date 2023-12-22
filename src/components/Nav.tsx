@@ -12,7 +12,7 @@ function Nav() {
                 { label: 'About', url: '#about' },
                 { label: 'Contact', url: '#contact' },
             ]}
-            start={ <span className='block ps-4 pe-12 text-muted'>Audrey Serene</span> }
+            start={ <span className='block ps-4 md:pe-12 text-muted hidden md:inline'>Audrey Serene</span> }
             end={
                 <>
                     <a href={ LINKEDIN_URL } className='p-button p-component p-button-icon-only p-button-text me-2' target='_blank'>
