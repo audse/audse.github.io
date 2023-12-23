@@ -9,6 +9,13 @@
         "CSS",
         "Javascript"
     ],
-    "years": ["2017", "2020"],
-    "github": "https://github.com/audse/primaria"
+    "years": [
+        "2017",
+        "2020"
+    ],
+    "github": "https://github.com/audse/primaria",
+    "screenshots": [
+        "images/screenshots/primaria-1.png",
+        "images/screenshots/primaria-2.png"
+    ]
 }
