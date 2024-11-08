@@ -4,6 +4,7 @@ import { Timeline } from 'primereact/timeline'
 import { Badge } from 'primereact/badge'
 import { Button } from 'primereact/button'
 
+import smbhdJob from '../assets/jobs/smbhd.json'
 import utilityApiJob from '../assets/jobs/utilityapi.json'
 import freelanceAnimationJob from '../assets/jobs/freelance-animation.json'
 import webTutorJob from '../assets/jobs/web-tutor.json'
@@ -23,6 +24,7 @@ function fmtJobDate(date: string): string {
 }
 
 const jobs: JobProps[] = [
+    smbhdJob,
     utilityApiJob,
     freelanceAnimationJob,
     webTutorJob
