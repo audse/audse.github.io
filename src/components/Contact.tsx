@@ -11,14 +11,16 @@ function Contact() {
                 <Menu className='w-fit' model={[
                     { label: EMAIL, url: `mailto:${ EMAIL }`, icon: 'pi pi-envelope' },
                     { template: (
-                        <a href={ RESUME_URL } 
-                            download={ RESUME_FILENAME }
-                            className='p-menuitem-link'
-                            role='menuitem'
-                            tabIndex={ 0 }>
-                                <span className='p-menuitem-icon pi pi-download'></span>
-                                <span className='p-menuitem-text'>Download Resume</span>
+                        <div className="p-menuitem-content" data-pc-section="content">
+                            <a href={ RESUME_URL } 
+                                download={ RESUME_FILENAME }
+                                className='p-menuitem-link'
+                                role='menuitem'
+                                tabIndex={ 0 }>
+                                    <span className='p-menuitem-icon pi pi-download'></span>
+                                    <span className='p-menuitem-text'>Download Resume</span>
                             </a>
+                        </div>
                         ) },
                     { label: 'LinkedIn', url: LINKEDIN_URL, icon: 'pi pi-linkedin' },
                     { label: 'Github', url: GITHUB_URL, icon: 'pi pi-github' }

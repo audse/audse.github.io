@@ -3,8 +3,9 @@
     "company": "UtilityAPI",
     "dates": ["10/25/21", "12/12/23"],
     "description": [
-        "Designed the architecture and lead the frontend development for multiple products, including a city-wide utility data sharing platform and a custom integration app for Salesforce",
-        "Worked closely with designers and backend engineers to implement complex features",
-        "Improved performance, accessibility, and reliability of existing products"
+        "Used JavaScript, TypeScript, React, HTML, CSS",
+        "Designed the frontend architecture for multiple products, including a city-wide utility data sharing platform used by 5000+ building owners in Fort Collins, CO",
+        "Worked with backend engineers and designers to implement new features and monitor existing features for accessibility & UX improvement opportunities",
+        "Introduced frontend testing tools to improve reliability of existing products"
     ]
 }

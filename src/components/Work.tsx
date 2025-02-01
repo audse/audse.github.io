@@ -4,18 +4,22 @@ import { Timeline } from 'primereact/timeline'
 import { Badge } from 'primereact/badge'
 import { Button } from 'primereact/button'
 
+import designerDeveloperJob from '../assets/jobs/designer-developer.json'
 import smbhdJob from '../assets/jobs/smbhd.json'
 import utilityApiJob from '../assets/jobs/utilityapi.json'
-import freelanceAnimationJob from '../assets/jobs/freelance-animation.json'
+import motionGraphicsJob from '../assets/jobs/motion-graphics-ux-designer.json'
 import webTutorJob from '../assets/jobs/web-tutor.json'
 
 import { MONTHS, RESUME_FILENAME, RESUME_URL } from '../constants'
 
 function sortByDates<T extends { dates: string[] }>(a: T, z: T): number {
+    if ('Present' in a.dates) return -1;
+    if ('Present' in z.dates) return 1;
     return new Date(z.dates[z.dates.length - 1]).getTime() - new Date(a.dates[a.dates.length - 1]).getTime()
 }
 
 function fmtJobDate(date: string): string {
+    if (date === 'Present') return date;
     const d = new Date(date)
     if (date.length > 4) { // includes month
         return `${ MONTHS[d.getMonth()] } ${ d.getFullYear() }`
@@ -24,9 +28,10 @@ function fmtJobDate(date: string): string {
 }
 
 const jobs: JobProps[] = [
+    designerDeveloperJob,
     smbhdJob,
     utilityApiJob,
-    freelanceAnimationJob,
+    motionGraphicsJob,
     webTutorJob
 ].sort(sortByDates)
 
