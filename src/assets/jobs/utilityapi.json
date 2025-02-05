@@ -3,8 +3,8 @@
     "company": "UtilityAPI",
     "dates": ["10/25/21", "12/12/23"],
     "description": [
-        "Used JavaScript, TypeScript, React, HTML, CSS",
-        "Designed the frontend architecture for multiple products, including a city-wide utility data sharing platform used by 5000+ building owners in Fort Collins, CO",
+        "Used JavaScript, TypeScript, React, HTML, CSS, Python, and Django",
+        "Designed the frontend architecture for a city-wide utility data sharing platform used by 5000+ building owners in Fort Collins, CO",
         "Worked with backend engineers and designers to implement new features and monitor existing features for accessibility & UX improvement opportunities",
         "Introduced frontend testing tools to improve reliability of existing products"
     ]
